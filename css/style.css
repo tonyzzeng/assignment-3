@@ -1,0 +1,196 @@
+body {
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: #F5F5F5;
+}
+
+nav {
+	font-size: 1.1rem;
+	font-weight: 500;
+	width: 30rem;
+	margin-right: 20vw;
+	margin-left: 3rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+h1 {
+	color: #455A64;
+	font-weight: 600;
+}
+
+h2 {
+	color: #616161;
+	font-weight: 700;
+	font-size: 1.3rem;
+}
+
+a {
+	text-decoration: none;
+}
+
+nav a {
+	text-decoration: none;
+	color: #FDD835;
+}
+
+nav a:visited {
+	color: 
+}
+
+nav a:hover {
+	color: #D4E157;
+}
+
+.indent {
+	margin-left: 4rem;
+}
+
+.nav {
+	background-color: #263238;
+	height: 6rem;
+	display: flex;
+	flex-direction: row;
+	align-items: baseline;
+	justify-content: space-between;
+}
+
+.nav p {
+	font-size: 2rem;
+	font-weight: 700;
+	color: white;
+}
+
+.content {
+	display: flex;
+	flex-direction: row;
+	line-height: 1.5;
+	min-width: 800px;
+	justify-content: center;
+}
+
+.main {
+	width: 700px;
+	margin-right: 5rem;
+}
+
+.article {
+	display: flex;
+	flex-direction: column;
+	border-bottom: solid 1px; 
+	border-color: #757575;
+	padding-top: 0.5rem;
+	padding-bottom: 3rem;
+	margin-bottom: 2rem;
+}
+
+.article p::first-letter {
+	font-size: 2rem;
+	float: left;
+
+	padding-right: 8px;
+	padding-left: 3px;
+}
+
+.more {
+	align-self: flex-end;
+	font-weight: 600;
+	font-size: 16px;
+	padding-top: 2rem;
+}
+.article a {
+	color: #607D8B;
+}
+.article a:hover {
+	color: #2196F3;
+}
+
+.sidebar {
+	display: flex;
+	flex-direction: column;
+	width: 10rem;
+	min-width: 10rem;
+	padding-top: 1rem;
+}
+
+.about {
+	font-size: 12px;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+.about a {
+	font-weight: 600;
+}
+.sidebar a {
+	color: #607D8B;
+}
+.sidebar a:hover {
+	color: #2196F3;
+}
+
+.categories {
+	display: flex;
+	flex-direction: column;
+}
+
+
+.signupbtm {
+	display: flex;
+	background-color: #FFEB3B;
+	padding: 1.5rem 0rem;
+	margin-top: 2rem;
+	justify-content: center;
+}
+
+.signupbtm button {
+	text-align: center;
+	text-decoration: bold;
+	font-size: 14px;
+	font-weight: bold;
+	color: white;
+	text-transform: uppercase;
+	background-color: #5C6BC0;
+	border-radius: 5px;
+	padding: 15px 60px;
+	border: 0px;
+	cursor: pointer;
+}
+
+.footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 30vh;
+	background-color: #37474F;
+	font-size: 12px;
+	color: white;
+}
+
+.footer img {
+	margin: 1rem 1rem;
+}
+
+.facebook {
+	width: 13px;
+	height: auto;
+}
+
+.twitter {
+	width: 35px;
+	height: auto;
+}
+
+.footer p:first-of-type {
+	font-size: 24px;
+	color: white;
+	font-weight: 700;
+}
+
+.footer p:nth-of-type(2) {
+	margin: 2rem 0rem;
+}
